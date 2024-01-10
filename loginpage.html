@@ -1,0 +1,42 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<title>Login page</title>
+	<link rel="stylesheet" href="style2.css">
+
+	 <script type="text/javascript" src="login2.js"></script>
+     <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+</head>
+
+<body>
+    <div class="container">
+    <form class="box" action="loginpage.html" method="POST" onsubmit=" return-validate()" >
+       
+            <label><b>Username:</b> </label> 
+            <input type="text" placeholder="Enter Username" id="username" required><br>
+            <label><b>Password:</b></label> 
+            <input type="password" placeholder="Enter Password" id="password" required><br>
+            <button type="submit">Login</button>
+
+</form>
+        </div>
+
+       
+
+
+   
+
+
+
+
+
+
+  </form>  
+
+</body>   
+</html>
